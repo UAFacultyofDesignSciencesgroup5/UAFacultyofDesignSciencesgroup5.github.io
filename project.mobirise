@@ -33,7 +33,10 @@
     "noImageResize": "",
     "versionFirst": "4.4.1",
     "uniqCompNum": 285,
-    "versionPublish": "4.4.1"
+    "versionPublish": "4.4.1",
+    "google-analytics": "",
+    "cookiesAlert": "",
+    "siteUrl": "undefined"
   },
   "pages": {
     "index.html": {
@@ -1920,7 +1923,7 @@
             }
           },
           "_name": "features2",
-          "_customHTML": "<section class=\"features2\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <a href=\"page19.html\"><img src=\"@PROJECT_PATH@/assets/images/witte-foto-1536x20480.jpg\" alt=\"Mobirise\" title></a>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">&nbsp;</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise is an easy website builder - just drop site elements to your page, add content and style it to look the way you like. <a href=\"http://mobirise.com\">Learn more...</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/25637053-1605924512806466-586959504-o-2938x3820.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box \">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            All sites you make with Mobirise are mobile-friendly. You don't have to create a special mobile version of your site. <a href=\"http://mobirise.com\">Learn more...</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/25674674-1605924479473136-459373559-o-2-828x1472.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise offers many site blocks in several themes, and though these blocks are pre-made, they are flexible. <a href=\"http://mobirise.com\">Learn more...</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <a href=\"page29.html\"><img src=\"@PROJECT_PATH@/assets/images/witte-foto-1536x20480.jpg\" alt=\"Mobirise\" title></a>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app. <a href=\"http://mobirise.com\">Learn more...</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"features2\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <a href=\"page19.html\"><img src=\"@PROJECT_PATH@/assets/images/witte-foto-1536x20486.jpg\" alt=\"Mobirise\" title></a>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\">&nbsp;</h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise is an easy website builder - just drop site elements to your page, add content and style it to look the way you like. <a href=\"http://mobirise.com\">Learn more...</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/25637053-1605924512806466-586959504-o-2938x3820.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box \">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            All sites you make with Mobirise are mobile-friendly. You don't have to create a special mobile version of your site. <a href=\"http://mobirise.com\">Learn more...</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <img src=\"@PROJECT_PATH@/assets/images/25674674-1605924479473136-459373559-o-2-828x1472.jpg\" alt=\"Mobirise\" title>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise offers many site blocks in several themes, and though these blocks are pre-made, they are flexible. <a href=\"http://mobirise.com\">Learn more...</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-img\">\n                        <a href=\"page29.html\"><img src=\"@PROJECT_PATH@/assets/images/witte-foto-1536x20486.jpg\" alt=\"Mobirise\" title></a>\n                    </div>\n                    <div class=\"card-box\">\n                        <h4 class=\"card-title pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".card-title\"></h4>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                            Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app. <a href=\"http://mobirise.com\">Learn more...</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "features2-7i",
           "_isUserblock": true,
           "_cid": "qGf52LV2pd",
@@ -11235,7 +11238,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0304kopie-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0304kopie-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -11252,7 +11255,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0308-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0308-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -11269,7 +11272,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0311-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0311-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -11286,7 +11289,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0315kopie-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0315kopie-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -11303,7 +11306,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0317kopie-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0317kopie-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -11320,7 +11323,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0320kopie-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0320kopie-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -11337,7 +11340,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0321kopie-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0321kopie-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -11354,7 +11357,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0325kopie-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0325kopie-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -11371,7 +11374,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0326kopie-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0326kopie-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -11388,7 +11391,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0328kopie-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0328kopie-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -11405,7 +11408,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0332-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0332-684x1029.jpg",
                 "active": true,
                 "showButtons": false,
                 "showText": false,
@@ -12029,7 +12032,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0098-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0098-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -12046,7 +12049,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0099-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0099-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -12063,7 +12066,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0100-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0100-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -12080,7 +12083,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0101-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0101-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -12097,7 +12100,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0102-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0102-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -12114,7 +12117,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0103-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0103-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -12131,7 +12134,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0104-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0104-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -12148,7 +12151,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0105-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0105-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -12165,7 +12168,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0106-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0106-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -12182,7 +12185,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0110-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0110-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -12199,7 +12202,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0113-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0113-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -12216,7 +12219,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0114-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0114-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -12233,7 +12236,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0116-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0116-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -12250,7 +12253,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0117-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0117-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -12267,7 +12270,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0118-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0118-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -12284,7 +12287,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0119-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0119-684x1029.jpg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -12301,7 +12304,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-dsc0123-684x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0123-684x1029.jpg",
                 "active": true,
                 "showButtons": false,
                 "showText": false,
